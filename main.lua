@@ -14,7 +14,7 @@ local Window = Library:CreateWindow({
 
 getgenv().MainTab = Window:AddTab('Main')
 getgenv().VisualsTab = Window:AddTab('Visuals')
-getgenv().VisualsTab = Window:AddTab('Movement')
+getgenv().MovementTab = Window:AddTab('Movement')
 getgenv().MiscTab = Window:AddTab('Misc')
 
 local MiscellaneousGroup = getgenv().MiscTab:AddRightGroupbox('Miscellaneous')
